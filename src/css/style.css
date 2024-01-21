@@ -1,0 +1,141 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    /* background-color: #282c34; */
+    min-height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 20px;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.message_list_wrap {
+  width: 90%;
+  max-width: 500px;
+}
+
+.input_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-bottom: 10px;
+  padding: 10px 5px;
+}
+
+.btn {
+    font-size: 16px;
+    background-color: #222222;
+    color: #fff;
+    border: solid #000;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: #F16D7F;
+    transition: 0.3s;
+}
+
+
+.user_message, .bot_message {
+  list-style-type: none;
+  /* border: 1px solid #c0c0c0; */
+  border-radius: 5px;
+  /* background-color: #c0c0c0; */
+  max-width: 100px;
+  padding: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.user_message {
+  color: #000;
+  border: 1px solid #74d2f1;
+  background-color: #74d2f1;
+}
+
+.bot_message {
+  border: 1px solid #c0c0c0;
+  background-color: #c0c0c0;
+  /* position: absolute; */
+  right: 0;
+}
+
+.toolbar_list {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.toolbar_list li {
+  padding-left: 20px;
+}
+
+.toolbar_list a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.chat_list_item {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    list-style-type: none;
+    background-color: #c7c7c7;
+}
+
+.chat_create {
+  margin-top: 40px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 15px;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.api_flex {
+  display: flex;
+  max-width: 800px;
+  width: 100%;
+  list-style-type: none;
+  border: 1 px solid #000;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 5px;
+}
